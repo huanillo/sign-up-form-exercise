@@ -1,0 +1,14 @@
+input:valid   { border: 2px solid green; }
+input:invalid { border: 2px solid red; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: seagreen;
+}
+
+button {
+  background: seagreen;
+  color: white;
+  border: none;
+  padding: 8px;
+}
