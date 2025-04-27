@@ -88,10 +88,8 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  
+  align-items: left;  
 }
-
 .intro{
   padding: 40px;
   justify-content: left;
@@ -100,90 +98,86 @@ footer a {
   font-weight: bold;
   font-size: 15px;
   width: 70%;
-  border: 1px solid black;
   margin-bottom: 20px;
 }
-
 form {
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 250px;
-    width: 100%;
-    font-family: sans-serif;
-    border: none;
-    box-shadow: 0px 5px 5px #e0dede, 0px -1px 3px #e0dede;
-  }
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 250px;
+  width: 100%;
+  font-family: sans-serif;
+  border: none;
+  box-shadow: 0px 5px 5px #e0dede, 0px -1px 3px #e0dede;
+}
 legend {
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
-
-  .first-column,
-  .second-column {
-    display: flex;
-    flex-direction: column;
-    width: 48%;
-    border: 1px solid black;
-    padding-right: 50px;
-  }
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.first-column,
+.second-column {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  padding-right: 50px;
+}
 label {
-    font-size: 10px;
-    margin-top: 15px;
-    font-weight: bold;
-    color: #5a5a5a;
-  }
-  input{
-    padding: 3px;
-  }
-  input:valid {
-    border: 1px solid #E5E7EB;
-    border-radius: 4px;
-  }
-  input:invalid {
-    border: 1px solid red;
-    border-radius: 4px;
-  }
-  
-  fieldset {
-    display: flex;
-    flex-direction: row;
-    height: 190px;
-    border: none;
-    width: 80%;
-  }
-  
-  legend {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  button {
-    padding: 8px;
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-    width: 150px;
-    background-color: #596D48;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 0px 5px 5px #e0dede, 0px -1px 3px #e0dede;  
-  }
-  
-  button:hover {
-    background-color: darkgreen;
-  }
-  .login{
-    margin-left: 40px;
-    margin-top: 0px;
-    font-family: sans-serif;
-    font-size: 12px;
-  }
-  .login a{
-    color: #596D48;
-    text-decoration: none;
-    font-weight: bold;
-  }
+  font-size: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+input{
+  padding: 3px;
+}
+input:focus {
+  box-shadow: 3px 3px 5px #8f8f8f;
+}
+input:valid {
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+}
+input:invalid {
+  border: 1px solid red;
+  border-radius: 4px;
+} 
+fieldset {
+  display: flex;
+  flex-direction: row;
+  height: 190px;
+  border: none;
+  width: 80%;
+} 
+legend {
+  font-weight: bold;
+  margin-bottom: 5px;
+} 
+button {
+  padding: 8px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  width: 150px;
+  background-color: #596D48;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #e0dede, 0px -1px 3px #e0dede;  
+}  
+button:hover {
+  background-color: darkgreen;
+}
+.login{
+  margin-left: 40px;
+  margin-top: 0px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.login a{
+  color: #596D48;
+  text-decoration: none;
+  font-weight: bold;
+}
